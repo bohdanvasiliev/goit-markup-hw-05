@@ -408,11 +408,11 @@
     </div>
     <div class="subscribe-container">
     <p class="title-subscribe">Subscribe</p>
-    <form>
-        <label class="label-subscribe" for="subscribe">
+    <form class="form-subscribe">
+        <label class="label-subscribe" for="subscribe"> </label>
             <input type="email" class="input-subscribe" name="user-subscribe" placeholder="E-mail" id="subscribe">
-            <button class="subscribe-btn">Subscribe<svg weight="24" height="24" class="icon-subscribe"><use href="./images/icons.svg#icon-Frame"></use></svg></button>
-        </label>
+            <button class="subscribe-btn">Subscribe<svg width="24" height="24" class="icon-subscribe"><use href="./images/icons.svg#icon-Frame"></use></svg></button>
+       
     </form>
 </div>
 </div>
@@ -428,10 +428,10 @@
     <p class="modal-text">Leave your contacts and we will call you back</p>
 <form class="modal-form">
   <div class="modal-container-form">
-        <label class="modal-form-label" for="user-text">Name</label>
+        <label class="modal-form-label" for="user-name">Name</label>
            <div class="modal-form-input-cont">
-               <input class="modal-form-input" name="user-text" type="text" id="user-text" required>
-                   <svg class="modal-form-icon" width="18" height="18">
+               <input class="modal-form-input" name="user-name" type="text" id="user-name" required>
+                   <svg class="modal-form-icon" width="18px" height="24px">
                <use href="./images/icons.svg#icon-person"></use>
           </svg>
       </div>
@@ -440,7 +440,7 @@
     <label class="modal-form-label" for="user-tel">Phone</label>
        <div class="modal-form-input-cont">
            <input class="modal-form-input" name="user-tel" type="tel" id="user-tel" required>
-               <svg class="modal-form-icon" width="18" height="18">
+               <svg class="modal-form-icon" width="18px" height="24px">
            <use href="./images/icons.svg#icon-phone"></use>
       </svg>
   </div>
@@ -449,22 +449,21 @@
     <label class="modal-form-label" for="user-email">Email</label>
        <div class="modal-form-input-cont">
            <input class="modal-form-input" name="user-email" title="test@gmail.com" type="email" id="user-email" required>
-               <svg class="modal-form-icon" width="18" height="18">
+               <svg class="modal-form-icon" width="18px" height="24px">
            <use href="./images/icons.svg#icon-email"></use>
       </svg>
   </div>
 </div>
 <div class="modal-comment-form">
-    <lable class="modal-form-label" for="user-coment">Comment</lable>
-        <textarea class="modal-comment" id="user-coment" name="" placeholder="Text input"></textarea>
-    
+    <lable class="modal-form-label" for="user-comment">Comment</lable>
+        <textarea class="modal-comment" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
 </div>
 <div class="modal-cont-checkbox">
-    <input type="checkbox" class="modal-input-checkbox title-advan" id="user-checkbox">
+    <input type="checkbox" class="modal-input-checkbox title-advan" value="true"  id="user-privacy" name="user-privacy">
     
-<label class="label-checkbox" for="user-checkbox"><span class="custom-checkbox"><svg width="10px" height="8px">
+<label class="label-checkbox" for="user-privacy"><span class="custom-checkbox"><svg width="10px" height="8px">
     <use href="./images/icons.svg#icon-Vector"></use>
-</svg></span>I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+</svg></span>I accept the terms and conditions of the <a class="privacy" href="">Privacy Policy</a></label>
 </div>
 <button class="submit-btn" type="submit">Send</button>
 </form>
