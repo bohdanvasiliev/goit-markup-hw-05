@@ -786,6 +786,7 @@ width: 264px;
 height: 40px;
 background-color: #2e2f42;
 margin-right: 24px;
+padding-right: 16px;
 }
 .subscribe-btn {
     border: none;
@@ -815,4 +816,7 @@ font-family: inherit;
 }
 .subscribe-btn:hover, .subscribe-btn:focus {
     background-color: #404bbf;
+}
+.input-subscribe::placeholder {
+    padding: 8px 16px;
 }
