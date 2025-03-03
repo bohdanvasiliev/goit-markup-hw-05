@@ -705,7 +705,7 @@ margin-bottom: 4px;
     fill:  #4d5ae5;;
 }
 
-.modal-comment-form {
+.modal-container-form {
     margin-bottom: 16px
 }
 .modal-comment {
@@ -811,7 +811,7 @@ height: 40px;
 background-color: transparent;
 margin-right: 24px;
 padding-left: 16px;
-
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 font-size: 12px;
 line-height: 2;
 letter-spacing: 0.04em;
@@ -822,7 +822,7 @@ color: #ffff;
     border: none;
     border-radius: 4px;
 padding: 8px 24px;
-width: 165px;
+min-width: 165px;
 height: 40px;
 background-color: #4d5ae5;
 font-weight: 500;
@@ -836,6 +836,7 @@ justify-content: center;
 align-items: center;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 font-family: inherit;
+cursor: pointer;
 }
 .icon-subscribe {
     fill: #fff;
