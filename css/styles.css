@@ -704,6 +704,10 @@ margin-bottom: 4px;
 .modal-form-input:focus+ .modal-form-icon {
     fill:  #4d5ae5;;
 }
+
+.modal-comment-form {
+    margin-bottom: 16px
+}
 .modal-comment {
     border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
